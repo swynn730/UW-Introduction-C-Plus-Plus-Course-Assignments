@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadTimeLinking", "LoadTimeLinking\LoadTimeLinking.vcxproj", "{D797A3B2-AA4D-4997-B2D4-23C099813B94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppUnitLite", "CppUnitLite\CppUnitLite.vcxproj", "{E1219D29-F9BB-4479-B198-B25D5CC35F3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicLibraries", "DynamicLibraries", "{BC267D28-DDB3-4086-91E3-CDCEA8A89705}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shape", "DynamicLibraries\Shape\Shape.vcxproj", "{C19ED3BD-6A72-46BD-9678-46D4B2D13882}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DerivedShapes", "DynamicLibraries\DerivedShapes\Red\DerivedShapes.vcxproj", "{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Red", "Red", "{4C30093B-0614-4047-BE3C-7DE8BC9487DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Debug|x64.ActiveCfg = Debug|x64
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Debug|x64.Build.0 = Debug|x64
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Debug|x86.ActiveCfg = Debug|Win32
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Debug|x86.Build.0 = Debug|Win32
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Release|x64.ActiveCfg = Release|x64
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Release|x64.Build.0 = Release|x64
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Release|x86.ActiveCfg = Release|Win32
+		{D797A3B2-AA4D-4997-B2D4-23C099813B94}.Release|x86.Build.0 = Release|Win32
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Debug|x64.ActiveCfg = Debug|x64
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Debug|x64.Build.0 = Debug|x64
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Debug|x86.Build.0 = Debug|Win32
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Release|x64.ActiveCfg = Release|x64
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Release|x64.Build.0 = Release|x64
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Release|x86.ActiveCfg = Release|Win32
+		{E1219D29-F9BB-4479-B198-B25D5CC35F3B}.Release|x86.Build.0 = Release|Win32
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Debug|x64.ActiveCfg = Debug|x64
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Debug|x64.Build.0 = Debug|x64
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Debug|x86.ActiveCfg = Debug|Win32
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Debug|x86.Build.0 = Debug|Win32
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Release|x64.ActiveCfg = Release|x64
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Release|x64.Build.0 = Release|x64
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Release|x86.ActiveCfg = Release|Win32
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882}.Release|x86.Build.0 = Release|Win32
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Debug|x64.ActiveCfg = Debug|x64
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Debug|x64.Build.0 = Debug|x64
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Debug|x86.Build.0 = Debug|Win32
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Release|x64.ActiveCfg = Release|x64
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Release|x64.Build.0 = Release|x64
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Release|x86.ActiveCfg = Release|Win32
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C19ED3BD-6A72-46BD-9678-46D4B2D13882} = {BC267D28-DDB3-4086-91E3-CDCEA8A89705}
+		{C0654AF4-FA90-45AE-9FF7-EDDBFF8F7C59} = {4C30093B-0614-4047-BE3C-7DE8BC9487DE}
+		{4C30093B-0614-4047-BE3C-7DE8BC9487DE} = {BC267D28-DDB3-4086-91E3-CDCEA8A89705}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {994EB9F9-0BAF-4EAE-B16A-48CE537B7D9E}
+	EndGlobalSection
+EndGlobal
