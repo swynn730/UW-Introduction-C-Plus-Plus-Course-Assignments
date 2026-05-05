@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Failure.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRegistry.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResult.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="WFailure.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="public header files">
+      <UniqueIdentifier>{6ec6c6d0-f308-41cb-aca5-62e505549aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{95323d30-f00c-4785-959b-27adfa5c2c27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\CppUnitLite\TestHarness.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppUnitLite\Failure.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppUnitLite\Test.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppUnitLite\TestRegistry.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppUnitLite\TestResult.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppUnitLite\WFailure.h">
+      <Filter>public header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
